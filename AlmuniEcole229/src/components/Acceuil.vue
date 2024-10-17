@@ -15,11 +15,10 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(/src/assets/jeunes-adultes-collaborent-dans-bureau-moderne_505557-56081.jpg);
+    background-image: url(/src/assets/images/jeunes-adultes-collaborent-dans-bureau-moderne_505557-56081.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-/*     min-height: calc(100vh - 70px);
- */    display: flex;
+    display: flex;
     height: 100vh;
     flex-direction: column;
     align-items: center;

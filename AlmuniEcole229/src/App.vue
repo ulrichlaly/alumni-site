@@ -8,7 +8,7 @@
           <nav>
             <router-link to="/"
               ><img
-                src="/src/assets/Logo_Ecole_229_Horizontal_petit-1.jpeg"
+                src="/src/assets/images/Logo_Ecole_229_Horizontal_petit-1.jpeg"
                 style="width: 100px; border-radius: 10px"
                 alt=""
               />
@@ -25,7 +25,7 @@
             <router-link to="/Apropos">A propos</router-link>
             <div class="nav-droite">
               <div class="langage">EN</div>
-              <img src="/src/assets/icons8-soleil.svg" alt="" />
+              <img src="/src/assets/images/icons8-soleil.svg" alt="" />
             </div>
           </nav>
         </div>
@@ -51,26 +51,22 @@ header {
   left: 0;
   z-index: 10;
   background-color: #fff;
-  /*     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
- */
 }
 .container {
   margin: 0 auto;
-  max-width: 90%;
+  max-width: 80%;
 }
 .content {
   width: 100%;
   position: relative;
   display: inline-block;
-
 }
 nav {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  height: 70px;
-  padding: 10px;
+  padding: 10px 0;
   cursor: pointer;
 }
 .langage {
@@ -98,15 +94,6 @@ li {
   cursor: pointer;
 }
 .promo_menu {
-  /* width: 200px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 20px;
-  background-color: #fff;
-
-  transform: translate(-50%, -50%);
-  */
   display: none;
   position: absolute;
   color: #0D0460;
@@ -142,5 +129,8 @@ li {
 }
 .promo_menu li:hover{
   background-color: #e0e0e0;
+}
+main{
+  width: 100%;
 }
 </style>
