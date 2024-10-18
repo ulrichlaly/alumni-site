@@ -20,4 +20,18 @@ a:active, a:visited{
   text-decoration: none;
 }
 
+h1{
+  font-size: 60px;
+  margin: 0;
+  font-weight: 900;
+}
+h2{
+  font-size: 30px;
+  margin: 0;
 
+}
+h3{
+  font-size: 25px;
+  margin: 0;
+
+}

@@ -103,6 +103,7 @@ header {
   left: 0;
   z-index: 10;
   background-color: #fff;
+  border-bottom: black solid 0.5px;
 }
 
 .container {
