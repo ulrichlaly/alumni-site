@@ -3,7 +3,7 @@
 <template>
   <section>
     <div class="container">
-      <div class="content">
+      <div class="content_a">
         <h1>À propos de la communauté des alumni de l'Ecole 229</h1>
         <div id="mission">
           <div class="photos">
@@ -87,30 +87,12 @@
 </template>
 
 <style scoped>
-/* .Info {
-  line-height: 1.6rem;
-  background-color: #f9f9f9;
-  color: #333;
-  padding: 20px;
-}
-
-header {
-  margin-top: 80px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-header h1 {
-  font-size: 2.5rem;
-  color: #0056b3;
-}
- */
 .container {
   max-width: 80%;
   margin: 0 auto;
 }
 
-.content {
+.content_a {
   width: 100%;
   display: flex;
   flex-direction: column;

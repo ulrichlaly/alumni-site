@@ -1,9 +1,15 @@
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url(/src/assets/font/Poppins/Poppins-ExtraLight.ttf);
+}
 body{
   padding: 0;
   margin: 0;
   overflow-x: hidden;
   width: 100%;
   color: #0D0460;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 a{
   color: inherit;
